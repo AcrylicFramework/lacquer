@@ -1,0 +1,19 @@
+{
+  "name": "lacquer",
+  "version": "1.0.0",
+  "description": "Independent css-base library",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --style=expanded --source-map lacquer.scss css/lacquer.css",
+    "minify": "postcss css/lacquer.css --no-map --use cssnano --output css/lacquer.min.css",
+    "start": "npm run build -- --watch"
+  },
+  "author": "Tetsuya Matsuda",
+  "license": "MIT",
+  "dependencies": {
+    "cssnano": "^7.0.3",
+    "modern-normalize": "^2.0.0",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.77.6"
+  }
+}

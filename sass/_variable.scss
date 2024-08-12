@@ -1,0 +1,20 @@
+$color-silver: #D6D3D1;
+$color-gray: #9E9E9E;
+$color-primary: #3AADD9;
+$color-bg-border: #D6D3D1;
+$color-danger: #EF5350;
+$color-warning: #F5B945;
+$color-success:#1CD1A1;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5,
+  7: $spacer * 3,
+  8: $spacer * 4,
+);

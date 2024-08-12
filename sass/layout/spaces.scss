@@ -1,0 +1,93 @@
+@use "../variable" as var;
+@each $key, $val in var.$spacers {
+    .m {
+        &-#{$key} {
+            margin: #{$val} !important;
+        }
+
+        &b-#{$key} {
+            margin-bottom: #{$val} !important;
+        }
+
+        &t-#{$key} {
+            margin-top: #{$val} !important;
+        }
+
+        &l-#{$key} {
+            margin-left: #{$val} !important;
+        }
+
+        &r-#{$key} {
+            margin-right: #{$val} !important;
+        }
+
+        &x-#{$key} {
+            margin-left: #{$val} !important;
+            margin-right: #{$val} !important;
+        }
+
+        &y-#{$key} {
+            margin-top: #{$val} !important;
+            margin-bottom: #{$val} !important;
+        }
+    }
+    .p {
+        &-#{$key} {
+            padding: #{$val} !important;
+        }
+
+        &b-#{$key} {
+            padding-bottom: #{$val} !important;
+        }
+
+        &t-#{$key} {
+            padding-top: #{$val} !important;
+        }
+
+        &l-#{$key} {
+            padding-left: #{$val} !important;
+        }
+
+        &r-#{$key} {
+            padding-right: #{$val} !important;
+        }
+
+        &x-#{$key} {
+            padding-left: #{$val} !important;
+            padding-right: #{$val} !important;
+        }
+
+        &y-#{$key} {
+            padding-top: #{$val} !important;
+            padding-bottom: #{$val} !important;
+        }
+    }
+}
+
+.w {
+    &-full {
+        width: 100%;
+    }
+
+    &-half {
+        width: 50%;
+    }
+
+    &-quarter {
+        width: 25%;
+    }
+}
+
+.h {
+    &-full {
+        height: 100%;
+    }
+
+    &-half {
+        height: 50%;
+    }
+
+    &-quarter {
+        height: 25%;
+    }
+}
