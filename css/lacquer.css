@@ -701,144 +701,334 @@ summary {
   height: 25%;
 }
 
-select.tt {
+select.lq {
   padding: 0.5rem 1rem;
   border-radius: 4px;
   border: solid 1px var(--color-bg-border);
   box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
 }
-select.tt:focus {
+select.lq:focus {
   outline: 1px solid var(--color-primary);
 }
-select.tt:not(.neutral):user-valid, select.tt.vaild {
+select.lq:not(.neutral):user-valid, select.lq.vaild {
   outline: 1px solid var(--color-success);
 }
-select.tt:not(.neutral):invalid, select.tt.invaild {
+select.lq:not(.neutral):invalid, select.lq.invaild {
   outline: 1px solid var(--color-danger);
 }
-select.tt option {
+select.lq option {
   font-size: 1rem;
 }
 
-input.tt[type=text] {
-  padding: 0.5rem 1rem;
+input.lq[type=text] {
+  padding: 0.6rem 1rem;
   border-radius: 4px;
   border: solid 1px var(--color-bg-border);
   box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
 }
-input.tt[type=text]:focus {
+input.lq[type=text]:focus {
   outline: 1px solid var(--color-primary);
 }
-input.tt[type=text]:not(.neutral):user-valid, input.tt[type=text].vaild {
+input.lq[type=text]:not(.neutral):user-valid, input.lq[type=text].vaild {
   outline: 1px solid var(--color-success);
 }
-input.tt[type=text]:not(.neutral):invalid, input.tt[type=text].invaild {
+input.lq[type=text]:not(.neutral):invalid, input.lq[type=text].invaild {
   outline: 1px solid var(--color-danger);
 }
-input.tt[type=number] {
-  padding: 0.5rem 1rem;
+input.lq[type=number] {
+  padding: 0.6rem 1rem;
   border-radius: 4px;
   border: solid 1px var(--color-bg-border);
   box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
 }
-input.tt[type=number]:focus {
+input.lq[type=number]:focus {
   outline: 1px solid var(--color-primary);
 }
-input.tt[type=number]:not(.neutral):user-valid, input.tt[type=number].vaild {
+input.lq[type=number]:not(.neutral):user-valid, input.lq[type=number].vaild {
   outline: 1px solid var(--color-success);
 }
-input.tt[type=number]:not(.neutral):invalid, input.tt[type=number].invaild {
+input.lq[type=number]:not(.neutral):invalid, input.lq[type=number].invaild {
   outline: 1px solid var(--color-danger);
 }
-input.tt[type=email] {
-  padding: 0.5rem 1rem;
+input.lq[type=email] {
+  padding: 0.6rem 1rem;
   border-radius: 4px;
   border: solid 1px var(--color-bg-border);
   box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
 }
-input.tt[type=email]:focus {
+input.lq[type=email]:focus {
   outline: 1px solid var(--color-primary);
 }
-input.tt[type=email]:not(.neutral):user-valid, input.tt[type=email].vaild {
+input.lq[type=email]:not(.neutral):user-valid, input.lq[type=email].vaild {
   outline: 1px solid var(--color-success);
 }
-input.tt[type=email]:not(.neutral):invalid, input.tt[type=email].invaild {
+input.lq[type=email]:not(.neutral):invalid, input.lq[type=email].invaild {
   outline: 1px solid var(--color-danger);
 }
-input.tt[type=url] {
-  padding: 0.5rem 1rem;
+input.lq[type=url] {
+  padding: 0.6rem 1rem;
   border-radius: 4px;
   border: solid 1px var(--color-bg-border);
   box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
 }
-input.tt[type=url]:focus {
+input.lq[type=url]:focus {
   outline: 1px solid var(--color-primary);
 }
-input.tt[type=url]:not(.neutral):user-valid, input.tt[type=url].vaild {
+input.lq[type=url]:not(.neutral):user-valid, input.lq[type=url].vaild {
   outline: 1px solid var(--color-success);
 }
-input.tt[type=url]:not(.neutral):invalid, input.tt[type=url].invaild {
+input.lq[type=url]:not(.neutral):invalid, input.lq[type=url].invaild {
   outline: 1px solid var(--color-danger);
 }
-input.tt[type=tel] {
-  padding: 0.5rem 1rem;
+input.lq[type=tel] {
+  padding: 0.6rem 1rem;
   border-radius: 4px;
   border: solid 1px var(--color-bg-border);
   box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
 }
-input.tt[type=tel]:focus {
+input.lq[type=tel]:focus {
   outline: 1px solid var(--color-primary);
 }
-input.tt[type=tel]:not(.neutral):user-valid, input.tt[type=tel].vaild {
+input.lq[type=tel]:not(.neutral):user-valid, input.lq[type=tel].vaild {
   outline: 1px solid var(--color-success);
 }
-input.tt[type=tel]:not(.neutral):invalid, input.tt[type=tel].invaild {
+input.lq[type=tel]:not(.neutral):invalid, input.lq[type=tel].invaild {
   outline: 1px solid var(--color-danger);
 }
-input.tt[type=password] {
-  padding: 0.5rem 1rem;
+input.lq[type=password] {
+  padding: 0.6rem 1rem;
   border-radius: 4px;
   border: solid 1px var(--color-bg-border);
   box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
 }
-input.tt[type=password]:focus {
+input.lq[type=password]:focus {
   outline: 1px solid var(--color-primary);
 }
-input.tt[type=password]:not(.neutral):user-valid, input.tt[type=password].vaild {
+input.lq[type=password]:not(.neutral):user-valid, input.lq[type=password].vaild {
   outline: 1px solid var(--color-success);
 }
-input.tt[type=password]:not(.neutral):invalid, input.tt[type=password].invaild {
+input.lq[type=password]:not(.neutral):invalid, input.lq[type=password].invaild {
   outline: 1px solid var(--color-danger);
 }
-input.tt[type=date] {
-  padding: 0.5rem 1rem;
+input.lq[type=date] {
+  padding: 0.6rem 1rem;
   border-radius: 4px;
   border: solid 1px var(--color-bg-border);
   box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
 }
-input.tt[type=date]:focus {
+input.lq[type=date]:focus {
   outline: 1px solid var(--color-primary);
 }
-input.tt[type=date]:not(.neutral):user-valid, input.tt[type=date].vaild {
+input.lq[type=date]:not(.neutral):user-valid, input.lq[type=date].vaild {
   outline: 1px solid var(--color-success);
 }
-input.tt[type=date]:not(.neutral):invalid, input.tt[type=date].invaild {
+input.lq[type=date]:not(.neutral):invalid, input.lq[type=date].invaild {
   outline: 1px solid var(--color-danger);
 }
-input.tt[type=time] {
-  padding: 0.5rem 1rem;
+input.lq[type=time] {
+  padding: 0.6rem 1rem;
   border-radius: 4px;
   border: solid 1px var(--color-bg-border);
   box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
 }
-input.tt[type=time]:focus {
+input.lq[type=time]:focus {
   outline: 1px solid var(--color-primary);
 }
-input.tt[type=time]:not(.neutral):user-valid, input.tt[type=time].vaild {
+input.lq[type=time]:not(.neutral):user-valid, input.lq[type=time].vaild {
   outline: 1px solid var(--color-success);
 }
-input.tt[type=time]:not(.neutral):invalid, input.tt[type=time].invaild {
+input.lq[type=time]:not(.neutral):invalid, input.lq[type=time].invaild {
   outline: 1px solid var(--color-danger);
+}
+input.lq[type=datetime-local] {
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  border: solid 1px var(--color-bg-border);
+  box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
+}
+input.lq[type=datetime-local]:focus {
+  outline: 1px solid var(--color-primary);
+}
+input.lq[type=datetime-local]:not(.neutral):user-valid, input.lq[type=datetime-local].vaild {
+  outline: 1px solid var(--color-success);
+}
+input.lq[type=datetime-local]:not(.neutral):invalid, input.lq[type=datetime-local].invaild {
+  outline: 1px solid var(--color-danger);
+}
+input.lq[type=month] {
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  border: solid 1px var(--color-bg-border);
+  box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
+}
+input.lq[type=month]:focus {
+  outline: 1px solid var(--color-primary);
+}
+input.lq[type=month]:not(.neutral):user-valid, input.lq[type=month].vaild {
+  outline: 1px solid var(--color-success);
+}
+input.lq[type=month]:not(.neutral):invalid, input.lq[type=month].invaild {
+  outline: 1px solid var(--color-danger);
+}
+input.lq[type=week] {
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  border: solid 1px var(--color-bg-border);
+  box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
+}
+input.lq[type=week]:focus {
+  outline: 1px solid var(--color-primary);
+}
+input.lq[type=week]:not(.neutral):user-valid, input.lq[type=week].vaild {
+  outline: 1px solid var(--color-success);
+}
+input.lq[type=week]:not(.neutral):invalid, input.lq[type=week].invaild {
+  outline: 1px solid var(--color-danger);
+}
+input.lq[type=search] {
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  border: solid 1px var(--color-bg-border);
+  box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
+}
+input.lq[type=search]:focus {
+  outline: 1px solid var(--color-primary);
+}
+input.lq[type=search]:not(.neutral):user-valid, input.lq[type=search].vaild {
+  outline: 1px solid var(--color-success);
+}
+input.lq[type=search]:not(.neutral):invalid, input.lq[type=search].invaild {
+  outline: 1px solid var(--color-danger);
+}
+input.lq[type=color] {
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  border: solid 1px var(--color-bg-border);
+  box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
+  box-sizing: content-box;
+  padding: 0.23rem 0.5rem;
+}
+input.lq[type=color]:focus {
+  outline: 1px solid var(--color-primary);
+}
+input.lq[type=color]:not(.neutral):user-valid, input.lq[type=color].vaild {
+  outline: 1px solid var(--color-success);
+}
+input.lq[type=color]:not(.neutral):invalid, input.lq[type=color].invaild {
+  outline: 1px solid var(--color-danger);
+}
+
+input.lq[type=checkbox] {
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+  line-height: 10;
+  margin: 0px;
+  margin-bottom: -0.1rem;
+  border: solid 1px var(--color-bg-border);
+  box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
+  border-radius: 4px;
+  background-color: white;
+}
+input.lq[type=checkbox]:checked {
+  border: solid 1px var(--color-primary);
+  background-color: var(--color-primary);
+}
+input.lq[type=checkbox]:checked::before {
+  content: "";
+  display: block;
+  position: relative;
+  left: 0.3rem;
+  top: 0.1rem;
+  width: 0.32rem;
+  height: 0.6rem;
+  border: solid white;
+  border-width: 0 2.2px 2.2px 0;
+  transform: rotate(45deg);
+}
+input.lq[type=radio] {
+  position: relative;
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+  margin: 0;
+  margin-bottom: -0.1rem;
+  border: solid 1px var(--color-bg-border);
+  box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
+  border-radius: 50%;
+  background-color: white;
+}
+input.lq[type=radio]:checked {
+  border: solid 1px var(--color-primary);
+}
+input.lq[type=radio]:checked::before {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-primary);
+  border: solid 0.15rem white;
+  border-radius: 50%;
+}
+
+.lq.form {
+  display: flex;
+}
+.lq.form .field {
+  width: 100%;
+}
+.lq.form .field label {
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.lq.form .field input[type=text] {
+  width: 100%;
+}
+.lq.form .field input[type=number] {
+  width: 100%;
+}
+.lq.form .field input[type=email] {
+  width: 100%;
+}
+.lq.form .field input[type=url] {
+  width: 100%;
+}
+.lq.form .field input[type=tel] {
+  width: 100%;
+}
+.lq.form .field input[type=password] {
+  width: 100%;
+}
+.lq.form .field input[type=date] {
+  width: 100%;
+}
+.lq.form .field input[type=time] {
+  width: 100%;
+}
+.lq.form .field input[type=datetime-local] {
+  width: 100%;
+}
+.lq.form .field input[type=month] {
+  width: 100%;
+}
+.lq.form .field input[type=week] {
+  width: 100%;
+}
+.lq.form .field input[type=search] {
+  width: 100%;
+}
+.lq.form .field input[type=color] {
+  width: 100%;
+}
+.lq.form .field.two {
+  width: 50%;
+}
+.lq.form .field.three {
+  width: 33.3%;
 }
 
 /*# sourceMappingURL=lacquer.css.map */

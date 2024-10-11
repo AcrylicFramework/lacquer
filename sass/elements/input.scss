@@ -1,5 +1,5 @@
 @mixin input-base {
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1rem;
     border-radius: 4px;
     border: solid 1px var(--color-bg-border);
     box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
@@ -15,7 +15,7 @@
     }
 }
 
-input.tt {
+input.lq {
     &[type=text] {
         @include input-base;
     }
@@ -39,5 +39,22 @@ input.tt {
     }
     &[type=time] {
         @include input-base;
+    }
+    &[type=datetime-local] {
+        @include input-base;
+    }
+    &[type=month] {
+        @include input-base;
+    }
+    &[type=week] {
+        @include input-base;
+    }
+    &[type=search] {
+        @include input-base;
+    }
+    &[type=color] {
+        @include input-base;
+        box-sizing: content-box;
+        padding: 0.23rem 0.5rem;
     }
 }

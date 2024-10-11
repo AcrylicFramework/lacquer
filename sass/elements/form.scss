@@ -1,0 +1,69 @@
+@mixin field-input-size {
+    width: 100%;
+
+    
+}
+.lq.form {
+    display: flex;
+
+    .field {
+        width: 100%;
+
+        label {
+            width: 100%;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        input {
+            &[type=text] {
+                @include field-input-size;
+                
+            }
+            &[type=number] {
+                @include field-input-size;
+            }
+            &[type=email] {
+                @include field-input-size;
+            }
+            &[type=url] {
+                @include field-input-size;
+            }
+            &[type=tel] {
+                @include field-input-size;
+            }
+            &[type=password] {
+                @include field-input-size;
+            }
+            &[type=date] {
+                @include field-input-size;
+            }
+            &[type=time] {
+                @include field-input-size;
+            }
+            &[type=datetime-local] {
+                @include field-input-size;
+            }
+            &[type=month] {
+                @include field-input-size;
+            }
+            &[type=week] {
+                @include field-input-size;
+            }
+            &[type=search] {
+                @include field-input-size;
+            }
+            &[type=color] {
+                @include field-input-size;
+            }
+        }
+
+        &.two {
+            width: 50%;
+        }
+
+        &.three {
+            width: 33.3%;
+        }
+    }
+}
