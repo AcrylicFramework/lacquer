@@ -1,0 +1,60 @@
+button.lq {
+    background-color: var(--color-gray);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
+
+    &:hover {
+        background-color: color-mix(in srgb, var(--color-gray) 80%, white);
+    }
+    &:active {
+        background-color: color-mix(in srgb, var(--color-gray) 90%, white);
+    }
+
+    &.primary {
+        background-color: var(--color-primary);
+        color: white;
+        &:hover {
+            background-color: color-mix(in srgb, var(--color-primary) 80%, white);
+        }
+        &:active {
+            background-color: color-mix(in srgb, var(--color-primary) 90%, white);
+        }
+    }
+
+    &.warning {
+        background-color: var(--color-warning);
+        color: white;
+        &:hover {
+            background-color: color-mix(in srgb, var(--color-warning) 80%, white);
+        }
+        &:active {
+            background-color: color-mix(in srgb, var(--color-warning) 90%, white);
+        }
+    }
+
+    &.danger {
+        background-color: var(--color-danger);
+        color: white;
+        &:hover {
+            background-color: color-mix(in srgb, var(--color-danger) 80%, white);
+        }
+        &:active {
+            background-color: color-mix(in srgb, var(--color-danger) 90%, white);
+        }
+    }
+
+    &.success {
+        background-color: var(--color-success);
+        color: white;
+        &:hover {
+            background-color: color-mix(in srgb, var(--color-success) 80%, white);
+        }
+        &:active {
+            background-color: color-mix(in srgb, var(--color-success) 90%, white);
+        }
+    }
+}

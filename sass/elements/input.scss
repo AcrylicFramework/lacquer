@@ -58,3 +58,7 @@ input.lq {
         padding: 0.23rem 0.5rem;
     }
 }
+
+textarea.lq {
+    @include input-base;
+}
