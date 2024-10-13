@@ -57,6 +57,9 @@
                 @include field-input-size;
             }
         }
+        &textarea {
+            @include field-input-size;
+        }
 
         &.two {
             width: 50%;

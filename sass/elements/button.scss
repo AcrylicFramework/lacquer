@@ -1,4 +1,4 @@
-button.lq {
+@mixin button-base {
     background-color: var(--color-gray);
     color: white;
     border-radius: 4px;
@@ -57,4 +57,12 @@ button.lq {
             background-color: color-mix(in srgb, var(--color-success) 90%, white);
         }
     }
+}
+
+button.lq {
+    @include button-base;
+}
+
+input[type="submit"].lq {
+    @include button-base;
 }
