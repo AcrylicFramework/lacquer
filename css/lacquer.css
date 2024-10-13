@@ -991,59 +991,145 @@ input.lq[type=radio]:checked::before {
 }
 
 button.lq {
-  background-color: var(--color-gray);
-  color: white;
   border-radius: 4px;
   border: none;
   padding: 0.6rem 1rem;
   cursor: pointer;
   box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
+  background-color: var(--color-gray);
+  color: white;
 }
-button.lq:hover {
+button.lq:not(:disabled):hover {
   background-color: color-mix(in srgb, var(--color-gray) 80%, white);
 }
-button.lq:active {
+button.lq:not(:disabled):active {
   background-color: color-mix(in srgb, var(--color-gray) 90%, white);
+}
+button.lq:disabled {
+  background-color: color-mix(in srgb, var(--color-gray) 60%, white);
 }
 button.lq.primary {
   background-color: var(--color-primary);
   color: white;
 }
-button.lq.primary:hover {
+button.lq.primary:not(:disabled):hover {
   background-color: color-mix(in srgb, var(--color-primary) 80%, white);
 }
-button.lq.primary:active {
+button.lq.primary:not(:disabled):active {
   background-color: color-mix(in srgb, var(--color-primary) 90%, white);
+}
+button.lq.primary:disabled {
+  background-color: color-mix(in srgb, var(--color-primary) 60%, white);
 }
 button.lq.warning {
   background-color: var(--color-warning);
   color: white;
 }
-button.lq.warning:hover {
+button.lq.warning:not(:disabled):hover {
   background-color: color-mix(in srgb, var(--color-warning) 80%, white);
 }
-button.lq.warning:active {
+button.lq.warning:not(:disabled):active {
   background-color: color-mix(in srgb, var(--color-warning) 90%, white);
+}
+button.lq.warning:disabled {
+  background-color: color-mix(in srgb, var(--color-warning) 60%, white);
 }
 button.lq.danger {
   background-color: var(--color-danger);
   color: white;
 }
-button.lq.danger:hover {
+button.lq.danger:not(:disabled):hover {
   background-color: color-mix(in srgb, var(--color-danger) 80%, white);
 }
-button.lq.danger:active {
+button.lq.danger:not(:disabled):active {
   background-color: color-mix(in srgb, var(--color-danger) 90%, white);
+}
+button.lq.danger:disabled {
+  background-color: color-mix(in srgb, var(--color-danger) 60%, white);
 }
 button.lq.success {
   background-color: var(--color-success);
   color: white;
 }
-button.lq.success:hover {
+button.lq.success:not(:disabled):hover {
   background-color: color-mix(in srgb, var(--color-success) 80%, white);
 }
-button.lq.success:active {
+button.lq.success:not(:disabled):active {
   background-color: color-mix(in srgb, var(--color-success) 90%, white);
+}
+button.lq.success:disabled {
+  background-color: color-mix(in srgb, var(--color-success) 60%, white);
+}
+
+input[type=submit].lq {
+  border-radius: 4px;
+  border: none;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px 0px color-mix(in srgb, var(--color-bg-border) 25%, transparent);
+  background-color: var(--color-gray);
+  color: white;
+}
+input[type=submit].lq:not(:disabled):hover {
+  background-color: color-mix(in srgb, var(--color-gray) 80%, white);
+}
+input[type=submit].lq:not(:disabled):active {
+  background-color: color-mix(in srgb, var(--color-gray) 90%, white);
+}
+input[type=submit].lq:disabled {
+  background-color: color-mix(in srgb, var(--color-gray) 60%, white);
+}
+input[type=submit].lq.primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+input[type=submit].lq.primary:not(:disabled):hover {
+  background-color: color-mix(in srgb, var(--color-primary) 80%, white);
+}
+input[type=submit].lq.primary:not(:disabled):active {
+  background-color: color-mix(in srgb, var(--color-primary) 90%, white);
+}
+input[type=submit].lq.primary:disabled {
+  background-color: color-mix(in srgb, var(--color-primary) 60%, white);
+}
+input[type=submit].lq.warning {
+  background-color: var(--color-warning);
+  color: white;
+}
+input[type=submit].lq.warning:not(:disabled):hover {
+  background-color: color-mix(in srgb, var(--color-warning) 80%, white);
+}
+input[type=submit].lq.warning:not(:disabled):active {
+  background-color: color-mix(in srgb, var(--color-warning) 90%, white);
+}
+input[type=submit].lq.warning:disabled {
+  background-color: color-mix(in srgb, var(--color-warning) 60%, white);
+}
+input[type=submit].lq.danger {
+  background-color: var(--color-danger);
+  color: white;
+}
+input[type=submit].lq.danger:not(:disabled):hover {
+  background-color: color-mix(in srgb, var(--color-danger) 80%, white);
+}
+input[type=submit].lq.danger:not(:disabled):active {
+  background-color: color-mix(in srgb, var(--color-danger) 90%, white);
+}
+input[type=submit].lq.danger:disabled {
+  background-color: color-mix(in srgb, var(--color-danger) 60%, white);
+}
+input[type=submit].lq.success {
+  background-color: var(--color-success);
+  color: white;
+}
+input[type=submit].lq.success:not(:disabled):hover {
+  background-color: color-mix(in srgb, var(--color-success) 80%, white);
+}
+input[type=submit].lq.success:not(:disabled):active {
+  background-color: color-mix(in srgb, var(--color-success) 90%, white);
+}
+input[type=submit].lq.success:disabled {
+  background-color: color-mix(in srgb, var(--color-success) 60%, white);
 }
 
 .lq.form {
@@ -1094,6 +1180,9 @@ button.lq.success:active {
   width: 100%;
 }
 .lq.form .field input[type=color] {
+  width: 100%;
+}
+.lq.form .fieldtextarea {
   width: 100%;
 }
 .lq.form .field.two {
